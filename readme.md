@@ -21,7 +21,6 @@
 
 ### Difficulty Progression:
 - The game becomes harder over time as the gate speed gradually increases.
-
 ---
 
 ## 🌟 Features
@@ -36,39 +35,16 @@
 | ✅ Increasing Speed          | Game difficulty increases over time                        |
 | ✅ Particle Effects          | Unique effects for Red, Green, and Blue gate passes        |
 | ✅ Sound Effects             | Tap, success, and game over audio cues                     |
-| ⬜ Colorblind Mode           | *(Optional)* Use patterns instead of color (not implemented yet) |
 
 ---
 
-## ✨ Particle Effects (New Feature)
+## ✨ Particle Effects
 
 - Each correct gate pass triggers a matching **color-specific particle effect**:
   - 🔴 **Red Particle** for red gate
   - 🟢 **Green Particle** for green gate
   - 🔵 **Blue Particle** for blue gate
 - Particles are either instantiated or played from scene objects depending on setup.
-
----
-
-## 🛠 Technical Details
-
-- **Engine**: Unity 2020.3+ (supports newer versions)
-- **Platform**: Android (portrait mode)
-- **Optimization**:
-  - Responsive canvas scaling
-  - Object pooling for performance
-  - Lightweight particle effects
-- **AudioManager**:
-  - Singleton class that plays `Tap`, `Success`, and `Game Over` sounds.
-
----
-
-## 🚀 How to Play
-
-1. Open project in Unity 2020.3+.
-2. Load the `GameScene.unity`.
-3. Build for Android platform (portrait orientation).
-4. Tap on-screen buttons to play and survive as long as possible.
 
 ---
 
@@ -86,14 +62,6 @@
 
 ---
 
-## 📂 Assets Needed (Not included)
-
-- Gate sprites (Red, Green, Blue)
-- Particle prefabs (RedEffect, GreenEffect, BlueEffect)
-- Audio clips (`Tap`, `Success`, `GameOver`)
-- Simple button UI sprites
-
----
 
 ## 👤 Author
 
